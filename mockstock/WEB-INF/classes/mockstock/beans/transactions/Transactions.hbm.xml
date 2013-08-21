@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="mockstock.beans.transactions.Transactions" table="transactions">
+    <id column="transactionid" name="transactionid" type="int">
+      <generator class="increment"/>
+    </id>
+    <property name="teamid"/>
+    <property name="companyid"/>
+    <property name="noofshares"/>
+    <property name="price"/>
+    <property name="transactiontype"/>
+  </class>
+</hibernate-mapping>

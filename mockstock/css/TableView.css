@@ -1,0 +1,86 @@
+/* 
+    Document   : TableView
+    Created on : Jan 1, 2008, 2:17:26 AM
+    Author     : ExpertMental
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+table.aresimple
+{
+    width: 70%;
+    background-color: white;
+    color: black;
+    padding:5px;
+    font-family: verdana;
+    font-size: 17px;
+    border-color: brown;
+    border-collapse: collapse;
+    text-align: center;
+ }
+table.are
+{
+   
+    background-color: white;
+    color: black;
+    padding:0;
+    font-family: verdana;
+    font-size: 14px;
+    border-color: Gray;
+    border-collapse: collapse;
+    text-align: center;
+ }
+
+th.are
+{
+    background-image: url("../imgs/BlackBG.JPG");        
+    text-align: center;
+    height:25px;
+    color: white;
+}
+
+th.main
+{
+    background-image: url("../imgs/Header-Background1.jpg");        
+    text-align: center;
+    color: white;
+    height: 30px;
+    font-size: 20px;
+}
+
+td.company
+{
+    font-family: Verdana;
+    font-weight: bolder;
+    font-size: 22px;
+    color: white;
+}
+
+table.frm
+{
+   border: brown;
+   font-family:verdana;
+   border-collapse: collapse;
+   text-align:left;
+   padding : 10px;
+  
+}
+th.frm
+{
+    background-image: url("../imgs/Header-Background1.jpg");
+    text-align:center;
+    color: white;
+    height: 30px;
+}
+
+td.cmd
+{
+    background-image: url("../imgs/Header-Background1.jpg");
+    height: 25px;
+}
+
+

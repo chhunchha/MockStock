@@ -1,0 +1,56 @@
+@CHARSET "ISO-8859-1";
+body {
+    background-image: url('/mockstock/imgs/nature007.jpg');
+    text-align: center;
+}
+
+td.header
+{
+    text-align:center;
+    background-image: url('/mockstock/imgs/backgroundbw.png');
+    background-color: #555555 ;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+table.header
+{
+    width:100%;
+    border: 1px solid;
+}
+
+table.menu
+{
+    width: 100%
+    
+}
+
+td.menu
+{
+    color:white;
+    background-image: url("/mockstock/imgs/BlackBG.JPG");
+    height:32px;
+    font-family:verdana;
+    font-size: 16px;
+    font-weight: bolder;
+    border-right: 3px ridge Gray;
+    width: 14.28% ;
+}
+td.menu:hover{
+    color:black;
+    background-image: url("/mockstock/imgs/Header-Background1.jpg");
+}
+td.menuOver {
+    background-image: url("/mockstock/imgs/menubar_bg.PNG");
+    color:white;
+    height:32px;
+    width: 16.66%;
+}
+
+td.developerinfo
+{
+    text-align:right;
+}
+
+
+
+
